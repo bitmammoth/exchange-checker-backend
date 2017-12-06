@@ -1,2 +1,2 @@
-require('dotenv').config();
+require('now-env').config();
 require('./app')();
