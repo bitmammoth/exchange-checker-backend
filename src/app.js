@@ -9,7 +9,7 @@ const app = async () => {
   io.on('connection', (socket) => {
     console.log('exchange-server-backend: someone just connected!');
     socketExchanges(socket);
-    setInterval(() => socketRefresh(socket), 5000);
+    setInterval(() => socketRefresh(socket), 60000);
   });
   log('exchange-server-backend: waiting for connections...');
 };
