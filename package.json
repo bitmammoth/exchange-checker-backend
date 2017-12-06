@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lhas/exchange-checker-backend/issues"
   },
-  "homepage": "https://github.com/lhas/exchange-checker-backend#readme"
+  "homepage": "https://github.com/lhas/exchange-checker-backend#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
 }
