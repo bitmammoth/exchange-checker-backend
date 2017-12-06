@@ -1,5 +1,5 @@
-import BitValorService from './bitvalor';
+const BitValorService = require('./bitvalor');
 
-export {
+module.exports = {
   BitValorService,
 };
